@@ -1,0 +1,10 @@
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\bin\Debug\netcoreapp3.1\CarPark.Business.deps.json
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\bin\Debug\netcoreapp3.1\CarPark.Business.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\bin\Debug\netcoreapp3.1\CarPark.Business.pdb
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\obj\Debug\netcoreapp3.1\CarPark.Business.csproj.AssemblyReference.cache
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\obj\Debug\netcoreapp3.1\CarPark.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\obj\Debug\netcoreapp3.1\CarPark.Business.AssemblyInfoInputs.cache
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\obj\Debug\netcoreapp3.1\CarPark.Business.AssemblyInfo.cs
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\obj\Debug\netcoreapp3.1\CarPark.Business.csproj.CoreCompileInputs.cache
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\obj\Debug\netcoreapp3.1\CarPark.Business.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Business\obj\Debug\netcoreapp3.1\CarPark.Business.pdb

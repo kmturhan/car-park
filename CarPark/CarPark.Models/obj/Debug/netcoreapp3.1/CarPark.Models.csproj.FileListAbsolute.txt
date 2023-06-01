@@ -1,0 +1,10 @@
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\bin\Debug\netcoreapp3.1\CarPark.Models.deps.json
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\bin\Debug\netcoreapp3.1\CarPark.Models.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\bin\Debug\netcoreapp3.1\CarPark.Models.pdb
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\obj\Debug\netcoreapp3.1\CarPark.Models.csproj.AssemblyReference.cache
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\obj\Debug\netcoreapp3.1\CarPark.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\obj\Debug\netcoreapp3.1\CarPark.Models.AssemblyInfoInputs.cache
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\obj\Debug\netcoreapp3.1\CarPark.Models.AssemblyInfo.cs
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\obj\Debug\netcoreapp3.1\CarPark.Models.csproj.CoreCompileInputs.cache
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\obj\Debug\netcoreapp3.1\CarPark.Models.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.Models\obj\Debug\netcoreapp3.1\CarPark.Models.pdb
