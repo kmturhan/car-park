@@ -1,0 +1,120 @@
+2023-06-02 01:51:47.600 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-02 01:51:48.133 +03:00 [INF] Now listening on: https://localhost:5001
+2023-06-02 01:51:48.135 +03:00 [INF] Now listening on: http://localhost:5000
+2023-06-02 01:51:48.136 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-02 01:51:48.138 +03:00 [INF] Hosting environment: Development
+2023-06-02 01:51:48.139 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-02 01:52:01.743 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2023-06-02 01:52:01.809 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 01:52:01.880 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-02 01:52:05.951 +03:00 [INF] First log
+2023-06-02 01:52:05.980 +03:00 [INF] Executing ViewResult, running view Index.
+2023-06-02 01:52:06.166 +03:00 [INF] Executed ViewResult - view Index executed in 190.9311ms.
+2023-06-02 01:52:06.176 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 4290.7581ms
+2023-06-02 01:52:06.178 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 01:52:06.199 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+2023-06-02 01:52:06.199 +03:00 [INF] Request finished in 4460.8414ms 200 text/html; charset=utf-8
+2023-06-02 01:52:06.214 +03:00 [INF] Request finished in 14.5022ms 200 application/javascript; charset=utf-8
+2023-06-02 01:52:06.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+2023-06-02 01:52:06.269 +03:00 [INF] Request finished in 20.8214ms 200 text/javascript; charset=UTF-8
+2023-06-02 01:53:03.229 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-02 01:53:03.708 +03:00 [INF] Now listening on: https://localhost:5001
+2023-06-02 01:53:03.709 +03:00 [INF] Now listening on: http://localhost:5000
+2023-06-02 01:53:03.711 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-02 01:53:03.713 +03:00 [INF] Hosting environment: Development
+2023-06-02 01:53:03.714 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-02 01:53:18.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2023-06-02 01:53:18.185 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 01:53:18.242 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-02 01:53:19.685 +03:00 [ERR] First log
+2023-06-02 01:53:19.707 +03:00 [INF] Executing ViewResult, running view Index.
+2023-06-02 01:53:19.865 +03:00 [INF] Executed ViewResult - view Index executed in 163.2169ms.
+2023-06-02 01:53:19.872 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 1627.5556ms
+2023-06-02 01:53:19.874 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 01:53:19.897 +03:00 [INF] Request finished in 1777.2261ms 200 text/html; charset=utf-8
+2023-06-02 01:53:19.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+2023-06-02 01:53:19.980 +03:00 [INF] Request finished in 6.5805ms 200 application/javascript; charset=utf-8
+2023-06-02 01:53:19.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+2023-06-02 01:53:20.003 +03:00 [INF] Request finished in 21.0678ms 200 text/javascript; charset=UTF-8
+2023-06-02 02:00:52.400 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-02 02:00:52.840 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-02 02:00:52.841 +03:00 [INF] Hosting environment: Development
+2023-06-02 02:00:52.841 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-02 02:00:52.864 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
+2023-06-02 02:00:52.929 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 02:00:52.991 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-02 02:00:54.441 +03:00 [ERR] First log
+2023-06-02 02:00:54.460 +03:00 [INF] Executing ViewResult, running view Index.
+2023-06-02 02:00:54.628 +03:00 [INF] Executed ViewResult - view Index executed in 170.6803ms.
+2023-06-02 02:00:54.635 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 1643.1195ms
+2023-06-02 02:00:54.636 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 02:00:54.661 +03:00 [INF] Request finished in 1800.8858ms 200 text/html; charset=utf-8
+2023-06-02 02:00:54.688 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/css/site.css  
+2023-06-02 02:00:54.688 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-06-02 02:00:54.689 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/lib/jquery/dist/jquery.min.js  
+2023-06-02 02:00:54.689 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js  
+2023-06-02 02:00:54.689 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2023-06-02 02:00:54.703 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-06-02 02:00:54.711 +03:00 [INF] Request finished in 21.3975ms 200 application/javascript; charset=utf-8
+2023-06-02 02:00:54.713 +03:00 [INF] The file /css/site.css was not modified
+2023-06-02 02:00:54.713 +03:00 [INF] The file /js/site.js was not modified
+2023-06-02 02:00:54.713 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-06-02 02:00:54.713 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-06-02 02:00:54.713 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-06-02 02:00:54.715 +03:00 [INF] Request finished in 26.8037ms 304 text/css
+2023-06-02 02:00:54.715 +03:00 [INF] Request finished in 25.7893ms 304 application/javascript
+2023-06-02 02:00:54.715 +03:00 [INF] Request finished in 12.8717ms 304 application/javascript
+2023-06-02 02:00:54.715 +03:00 [INF] Request finished in 26.8465ms 304 text/css
+2023-06-02 02:00:54.715 +03:00 [INF] Request finished in 26.4762ms 304 application/javascript
+2023-06-02 02:00:54.750 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_vs/browserLink  
+2023-06-02 02:00:54.773 +03:00 [INF] Request finished in 22.8282ms 200 text/javascript; charset=UTF-8
+2023-06-02 02:07:11.491 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-02 02:07:12.005 +03:00 [INF] Now listening on: https://localhost:5001
+2023-06-02 02:07:12.007 +03:00 [INF] Now listening on: http://localhost:5000
+2023-06-02 02:07:12.008 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-02 02:07:12.010 +03:00 [INF] Hosting environment: Development
+2023-06-02 02:07:12.011 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-02 02:07:24.718 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2023-06-02 02:07:24.786 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 02:07:24.845 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-02 02:07:26.275 +03:00 [ERR] Customer step throw error (@customer)
+2023-06-02 02:07:26.305 +03:00 [INF] Executing ViewResult, running view Index.
+2023-06-02 02:07:26.489 +03:00 [INF] Executed ViewResult - view Index executed in 190.7974ms.
+2023-06-02 02:07:26.498 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 1649.7343ms
+2023-06-02 02:07:26.501 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 02:07:26.525 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-06-02 02:07:26.526 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-06-02 02:07:26.525 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2023-06-02 02:07:26.525 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2023-06-02 02:07:26.526 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+2023-06-02 02:07:26.537 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2023-06-02 02:07:26.540 +03:00 [INF] Request finished in 1829.6362ms 200 text/html; charset=utf-8
+2023-06-02 02:07:26.546 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-06-02 02:07:26.546 +03:00 [INF] The file /css/site.css was not modified
+2023-06-02 02:07:26.547 +03:00 [INF] The file /js/site.js was not modified
+2023-06-02 02:07:26.561 +03:00 [INF] Request finished in 32.6321ms 304 application/javascript
+2023-06-02 02:07:26.551 +03:00 [INF] Request finished in 24.312ms 200 application/javascript; charset=utf-8
+2023-06-02 02:07:26.546 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-06-02 02:07:26.546 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-06-02 02:07:26.567 +03:00 [INF] Request finished in 41.3143ms 304 text/css
+2023-06-02 02:07:26.568 +03:00 [INF] Request finished in 30.6896ms 304 application/javascript
+2023-06-02 02:07:26.572 +03:00 [INF] Request finished in 45.7295ms 304 application/javascript
+2023-06-02 02:07:26.574 +03:00 [INF] Request finished in 48.5716ms 304 text/css
+2023-06-02 02:07:26.587 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+2023-06-02 02:07:26.602 +03:00 [INF] Request finished in 15.4508ms 200 text/javascript; charset=UTF-8
+2023-06-02 02:08:41.517 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2023-06-02 02:08:41.521 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 02:08:41.524 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-02 02:08:41.697 +03:00 [ERR] Customer step throw error (@customer)
+2023-06-02 02:08:41.700 +03:00 [INF] Executing ViewResult, running view Index.
+2023-06-02 02:08:41.717 +03:00 [INF] Executed ViewResult - view Index executed in 17.9219ms.
+2023-06-02 02:08:41.719 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 189.2674ms
+2023-06-02 02:08:41.722 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-02 02:08:41.726 +03:00 [INF] Request finished in 209.4194ms 200 text/html; charset=utf-8
+2023-06-02 02:08:41.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+2023-06-02 02:08:41.764 +03:00 [INF] Request finished in 2.6205ms 200 application/javascript; charset=utf-8
+2023-06-02 02:08:41.773 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+2023-06-02 02:08:41.788 +03:00 [INF] Request finished in 14.9922ms 200 text/javascript; charset=UTF-8
+2023-06-02 02:08:41.907 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2023-06-02 02:08:41.909 +03:00 [INF] The file /favicon.ico was not modified
+2023-06-02 02:08:41.912 +03:00 [INF] Request finished in 4.8891ms 304 image/x-icon

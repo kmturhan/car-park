@@ -48,6 +48,17 @@ namespace CarPark.User.Controllers
 				}
 			};
 			collection.InsertOne(test);
+
+			var customer = new Customer
+			{
+				Id = 1,
+				NameSurname = "testtetstsetse",
+				Age = 26
+			};
+			
+			_logger.LogError("Customer step throw error (@customer)", customer);
+
+
 			return View();
 		}
 
