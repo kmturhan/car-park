@@ -33,6 +33,7 @@
         "dependencies": {
           "MongoDB.Driver": "2.19.2",
           "Serilog.AspNetCore": "7.0.0",
+          "Serilog.Enrichers.Environment": "2.2.0",
           "Serilog.Sinks.File": "5.0.0",
           "Serilog.Sinks.Seq": "5.2.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -683,6 +684,20 @@
         },
         "compile": {
           "lib/netstandard2.1/Serilog.AspNetCore.dll": {}
+        }
+      },
+      "Serilog.Enrichers.Environment/2.2.0": {
+        "dependencies": {
+          "Serilog": "2.12.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Enrichers.Environment.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Enrichers.Environment.dll": {}
         }
       },
       "Serilog.Extensions.Hosting/7.0.0": {
@@ -2754,6 +2769,13 @@
       "sha512": "sha512-F6p6rzOmg/R0EPI/PjJXcAlhCzusW5+xFx8kbsy6mJ6/mHI6wWWPxZbsLPoAYTpMiopKFl7HZhAr//KABGHtBQ==",
       "path": "serilog.aspnetcore/7.0.0",
       "hashPath": "serilog.aspnetcore.7.0.0.nupkg.sha512"
+    },
+    "Serilog.Enrichers.Environment/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DMrj3A4l65kc4JouQyZjjFv7N58Y7lGsB81kSzorTwUGeI2wrTy7CVwSOfG90/Pcu/HV5bwGrUmxDZ38pON+5Q==",
+      "path": "serilog.enrichers.environment/2.2.0",
+      "hashPath": "serilog.enrichers.environment.2.2.0.nupkg.sha512"
     },
     "Serilog.Extensions.Hosting/7.0.0": {
       "type": "package",

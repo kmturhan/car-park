@@ -49,14 +49,14 @@ namespace CarPark.User.Controllers
 			};
 			collection.InsertOne(test);
 
-			var customer = new Customer
+			Customer customer = new Customer
 			{
-				Id = 1,
-				NameSurname = "testtetstsetse",
-				Age = 26
+				Id = 2,
+				NameSurname = "Ahmet Mehmet",
+				Age = 20
 			};
-			
-			_logger.LogError("Customer step throw error (@customer)", customer);
+			var ss = "test";
+			_logger.LogError("Test Customer step throw error {@customer}", customer);
 
 
 			return View();

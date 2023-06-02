@@ -17,7 +17,10 @@ namespace CarPark.User
 			Log.Logger = new LoggerConfiguration()
 	.WriteTo.Console()
 	.WriteTo.File("log.txt")
-	.WriteTo.Seq("http://localhost:5341")
+	.WriteTo.Seq("http://localhost:5341/")
+	.MinimumLevel.Information()
+	.Enrich.WithProperty("ApplicationName", "CarPark.User")
+	.Enrich.WithMachineName()
 	.CreateLogger();
 			CreateHostBuilder(args).Build().Run();
 		}
