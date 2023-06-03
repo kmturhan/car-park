@@ -49,6 +49,26 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.AppSettings": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Serilog.Sinks.MSSqlServer": {
               "target": "Package",
               "version": "[6.3.0, )"

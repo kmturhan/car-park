@@ -699,6 +699,50 @@
           }
         }
       },
+      "Serilog.Enrichers.Environment/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Enrichers.Environment.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Enrichers.Environment.dll": {}
+        }
+      },
+      "Serilog.Enrichers.Process/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Enrichers.Process.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Enrichers.Process.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Serilog.Enrichers.Thread/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Enrichers.Thread.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Enrichers.Thread.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Serilog.Extensions.Hosting/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -750,6 +794,19 @@
           "lib/netstandard2.0/Serilog.Formatting.Compact.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Serilog.Settings.AppSettings/2.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.6.0",
+          "System.Configuration.ConfigurationManager": "4.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Settings.AppSettings.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Settings.AppSettings.dll": {}
         }
       },
       "Serilog.Settings.Configuration/7.0.0": {
@@ -889,7 +946,7 @@
           "System.Security.Permissions": "5.0.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
@@ -925,7 +982,7 @@
           "Microsoft.Win32.SystemEvents": "5.0.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {
             "related": ".xml"
           }
         },
@@ -1138,7 +1195,7 @@
           "System.Security.Principal.Windows": "5.0.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {
             "related": ".xml"
           }
         },
@@ -1202,7 +1259,7 @@
           "System.Windows.Extensions": "5.0.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {
+          "ref/netcoreapp3.0/System.Security.Permissions.dll": {
             "related": ".xml"
           }
         },
@@ -1215,7 +1272,7 @@
       "System.Security.Principal.Windows/5.0.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/_._": {
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
             "related": ".xml"
           }
         },
@@ -1345,7 +1402,7 @@
           "System.Drawing.Common": "5.0.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {
+          "ref/netcoreapp3.0/System.Windows.Extensions.dll": {
             "related": ".xml"
           }
         },
@@ -2361,6 +2418,56 @@
         "serilog.aspnetcore.nuspec"
       ]
     },
+    "Serilog.Enrichers.Environment/2.2.0": {
+      "sha512": "DMrj3A4l65kc4JouQyZjjFv7N58Y7lGsB81kSzorTwUGeI2wrTy7CVwSOfG90/Pcu/HV5bwGrUmxDZ38pON+5Q==",
+      "type": "package",
+      "path": "serilog.enrichers.environment/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Enrichers.Environment.dll",
+        "lib/netstandard1.3/Serilog.Enrichers.Environment.dll",
+        "lib/netstandard1.5/Serilog.Enrichers.Environment.dll",
+        "lib/netstandard2.0/Serilog.Enrichers.Environment.dll",
+        "serilog.enrichers.environment.2.2.0.nupkg.sha512",
+        "serilog.enrichers.environment.nuspec"
+      ]
+    },
+    "Serilog.Enrichers.Process/2.0.2": {
+      "sha512": "T9EjKKLsL6qC/3eOLUAKEPBLEqPDmt5BLXaQdPMaxJzuex+MeXA8DuAiPboUaftp3kbnCN4ZgZpDvs+Fa7OHuw==",
+      "type": "package",
+      "path": "serilog.enrichers.process/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Enrichers.Process.dll",
+        "lib/net45/Serilog.Enrichers.Process.pdb",
+        "lib/netstandard1.3/Serilog.Enrichers.Process.dll",
+        "lib/netstandard1.3/Serilog.Enrichers.Process.pdb",
+        "lib/netstandard2.0/Serilog.Enrichers.Process.dll",
+        "lib/netstandard2.0/Serilog.Enrichers.Process.pdb",
+        "serilog-enricher-nuget.png",
+        "serilog.enrichers.process.2.0.2.nupkg.sha512",
+        "serilog.enrichers.process.nuspec"
+      ]
+    },
+    "Serilog.Enrichers.Thread/3.1.0": {
+      "sha512": "85lWsGRJpRxvKT6j/H67no55SUBsBIvp556TKuBTGhjtoPeq+L7j/sDWbgAtvT0p7u7/phJyX6j35PQ4Vtqw0g==",
+      "type": "package",
+      "path": "serilog.enrichers.thread/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Enrichers.Thread.dll",
+        "lib/net45/Serilog.Enrichers.Thread.xml",
+        "lib/netstandard1.0/Serilog.Enrichers.Thread.dll",
+        "lib/netstandard1.0/Serilog.Enrichers.Thread.xml",
+        "lib/netstandard2.0/Serilog.Enrichers.Thread.dll",
+        "lib/netstandard2.0/Serilog.Enrichers.Thread.xml",
+        "serilog.enrichers.thread.3.1.0.nupkg.sha512",
+        "serilog.enrichers.thread.nuspec"
+      ]
+    },
     "Serilog.Extensions.Hosting/7.0.0": {
       "sha512": "AWsDTs6TeCtyXYDWakzLXCOZA3/IdIfBWBwkYAF0ZvVktVr3E15oYP9pfI7GzKaGVmHaJF9TgFQnFEfcnzEkcw==",
       "type": "package",
@@ -2421,6 +2528,19 @@
         "lib/netstandard2.0/Serilog.Formatting.Compact.xml",
         "serilog.formatting.compact.1.1.0.nupkg.sha512",
         "serilog.formatting.compact.nuspec"
+      ]
+    },
+    "Serilog.Settings.AppSettings/2.2.2": {
+      "sha512": "2BcbEs9E14BVUHlkZjxGnILUTN/FiYn45k8NW5I9nrMELnBy9sCQ1L2SgJVGLlINUhzEVqE7aWE84UG7B0Qr0A==",
+      "type": "package",
+      "path": "serilog.settings.appsettings/2.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Settings.AppSettings.dll",
+        "lib/netstandard2.0/Serilog.Settings.AppSettings.dll",
+        "serilog.settings.appsettings.2.2.2.nupkg.sha512",
+        "serilog.settings.appsettings.nuspec"
       ]
     },
     "Serilog.Settings.Configuration/7.0.0": {
@@ -3932,6 +4052,11 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Serilog.AspNetCore >= 7.0.0",
+      "Serilog.Enrichers.Environment >= 2.2.0",
+      "Serilog.Enrichers.Process >= 2.0.2",
+      "Serilog.Enrichers.Thread >= 3.1.0",
+      "Serilog.Settings.AppSettings >= 2.2.2",
+      "Serilog.Settings.Configuration >= 7.0.0",
       "Serilog.Sinks.MSSqlServer >= 6.3.0",
       "Serilog.Sinks.Seq >= 5.2.2"
     ]
@@ -3982,6 +4107,26 @@
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Serilog.AspNetCore": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Serilog.Enrichers.Environment": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Serilog.Enrichers.Process": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Serilog.Enrichers.Thread": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Serilog.Settings.AppSettings": {
+            "target": "Package",
+            "version": "[2.2.2, )"
+          },
+          "Serilog.Settings.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )"
           },

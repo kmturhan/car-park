@@ -32,6 +32,11 @@
       "CarPark.API/1.0.0": {
         "dependencies": {
           "Serilog.AspNetCore": "7.0.0",
+          "Serilog.Enrichers.Environment": "2.2.0",
+          "Serilog.Enrichers.Process": "2.0.2",
+          "Serilog.Enrichers.Thread": "3.1.0",
+          "Serilog.Settings.AppSettings": "2.2.2",
+          "Serilog.Settings.Configuration": "7.0.0",
           "Serilog.Sinks.MSSqlServer": "6.3.0",
           "Serilog.Sinks.Seq": "5.2.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -253,7 +258,6 @@
           "System.Runtime.Serialization.Json": "4.0.5.0",
           "System.Runtime.Serialization.Primitives": "4.2.2.0",
           "System.Runtime.Serialization.Xml": "4.1.5.0",
-          "System.Security.AccessControl.Reference": "4.1.1.0",
           "System.Security.Claims": "4.1.2.0",
           "System.Security.Cryptography.Algorithms": "4.3.2.0",
           "System.Security.Cryptography.Csp": "4.1.2.0",
@@ -262,9 +266,7 @@
           "System.Security.Cryptography.X509Certificates": "4.2.2.0",
           "System.Security.Cryptography.Xml": "4.0.3.0",
           "System.Security": "4.0.0.0",
-          "System.Security.Permissions.Reference": "4.0.3.0",
           "System.Security.Principal": "4.1.2.0",
-          "System.Security.Principal.Windows.Reference": "4.1.1.0",
           "System.Security.SecureString": "4.1.2.0",
           "System.ServiceModel.Web": "4.0.0.0",
           "System.ServiceProcess": "4.0.0.0",
@@ -288,7 +290,6 @@
           "System.Web": "4.0.0.0",
           "System.Web.HttpUtility": "4.0.2.0",
           "System.Windows": "4.0.0.0",
-          "System.Windows.Extensions.Reference": "4.0.1.0",
           "System.Xml": "4.0.0.0",
           "System.Xml.Linq": "4.0.0.0",
           "System.Xml.ReaderWriter": "4.2.2.0",
@@ -848,6 +849,48 @@
           "lib/netstandard2.1/Serilog.AspNetCore.dll": {}
         }
       },
+      "Serilog.Enrichers.Environment/2.2.0": {
+        "dependencies": {
+          "Serilog": "2.12.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Enrichers.Environment.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Enrichers.Environment.dll": {}
+        }
+      },
+      "Serilog.Enrichers.Process/2.0.2": {
+        "dependencies": {
+          "Serilog": "2.12.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Enrichers.Process.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Enrichers.Process.dll": {}
+        }
+      },
+      "Serilog.Enrichers.Thread/3.1.0": {
+        "dependencies": {
+          "Serilog": "2.12.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Enrichers.Thread.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Enrichers.Thread.dll": {}
+        }
+      },
       "Serilog.Extensions.Hosting/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -893,6 +936,21 @@
         },
         "compile": {
           "lib/netstandard2.0/Serilog.Formatting.Compact.dll": {}
+        }
+      },
+      "Serilog.Settings.AppSettings/2.2.2": {
+        "dependencies": {
+          "Serilog": "2.12.0",
+          "System.Configuration.ConfigurationManager": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Settings.AppSettings.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Settings.AppSettings.dll": {}
         }
       },
       "Serilog.Settings.Configuration/7.0.0": {
@@ -1013,6 +1071,9 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/7.0.0": {
@@ -1053,6 +1114,9 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
         }
       },
       "System.Formats.Asn1/5.0.0": {
@@ -1190,6 +1254,9 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
         }
       },
       "System.Security.Cryptography.Cng/5.0.0": {
@@ -1243,6 +1310,9 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Permissions.dll": {}
         }
       },
       "System.Security.Principal.Windows/5.0.0": {
@@ -1265,6 +1335,9 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -1355,6 +1428,9 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Windows.Extensions.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2671,12 +2747,6 @@
         },
         "compileOnly": true
       },
-      "System.Security.AccessControl.Reference/4.1.1.0": {
-        "compile": {
-          "System.Security.AccessControl.dll": {}
-        },
-        "compileOnly": true
-      },
       "System.Security.Claims/4.1.2.0": {
         "compile": {
           "System.Security.Claims.dll": {}
@@ -2725,21 +2795,9 @@
         },
         "compileOnly": true
       },
-      "System.Security.Permissions.Reference/4.0.3.0": {
-        "compile": {
-          "System.Security.Permissions.dll": {}
-        },
-        "compileOnly": true
-      },
       "System.Security.Principal/4.1.2.0": {
         "compile": {
           "System.Security.Principal.dll": {}
-        },
-        "compileOnly": true
-      },
-      "System.Security.Principal.Windows.Reference/4.1.1.0": {
-        "compile": {
-          "System.Security.Principal.Windows.dll": {}
         },
         "compileOnly": true
       },
@@ -2878,12 +2936,6 @@
       "System.Windows/4.0.0.0": {
         "compile": {
           "System.Windows.dll": {}
-        },
-        "compileOnly": true
-      },
-      "System.Windows.Extensions.Reference/4.0.1.0": {
-        "compile": {
-          "System.Windows.Extensions.dll": {}
         },
         "compileOnly": true
       },
@@ -3221,6 +3273,27 @@
       "path": "serilog.aspnetcore/7.0.0",
       "hashPath": "serilog.aspnetcore.7.0.0.nupkg.sha512"
     },
+    "Serilog.Enrichers.Environment/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DMrj3A4l65kc4JouQyZjjFv7N58Y7lGsB81kSzorTwUGeI2wrTy7CVwSOfG90/Pcu/HV5bwGrUmxDZ38pON+5Q==",
+      "path": "serilog.enrichers.environment/2.2.0",
+      "hashPath": "serilog.enrichers.environment.2.2.0.nupkg.sha512"
+    },
+    "Serilog.Enrichers.Process/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T9EjKKLsL6qC/3eOLUAKEPBLEqPDmt5BLXaQdPMaxJzuex+MeXA8DuAiPboUaftp3kbnCN4ZgZpDvs+Fa7OHuw==",
+      "path": "serilog.enrichers.process/2.0.2",
+      "hashPath": "serilog.enrichers.process.2.0.2.nupkg.sha512"
+    },
+    "Serilog.Enrichers.Thread/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-85lWsGRJpRxvKT6j/H67no55SUBsBIvp556TKuBTGhjtoPeq+L7j/sDWbgAtvT0p7u7/phJyX6j35PQ4Vtqw0g==",
+      "path": "serilog.enrichers.thread/3.1.0",
+      "hashPath": "serilog.enrichers.thread.3.1.0.nupkg.sha512"
+    },
     "Serilog.Extensions.Hosting/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3241,6 +3314,13 @@
       "sha512": "sha512-pNroKVjo+rDqlxNG5PXkRLpfSCuDOBY0ri6jp9PLe505ljqwhwZz8ospy2vWhQlFu5GkIesh3FcDs4n7sWZODA==",
       "path": "serilog.formatting.compact/1.1.0",
       "hashPath": "serilog.formatting.compact.1.1.0.nupkg.sha512"
+    },
+    "Serilog.Settings.AppSettings/2.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2BcbEs9E14BVUHlkZjxGnILUTN/FiYn45k8NW5I9nrMELnBy9sCQ1L2SgJVGLlINUhzEVqE7aWE84UG7B0Qr0A==",
+      "path": "serilog.settings.appsettings/2.2.2",
+      "hashPath": "serilog.settings.appsettings.2.2.2.nupkg.sha512"
     },
     "Serilog.Settings.Configuration/7.0.0": {
       "type": "package",
@@ -4589,11 +4669,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Security.AccessControl.Reference/4.1.1.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
     "System.Security.Claims/4.1.2.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -4634,17 +4709,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Security.Permissions.Reference/4.0.3.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
     "System.Security.Principal/4.1.2.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Security.Principal.Windows.Reference/4.1.1.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4760,11 +4825,6 @@
       "sha512": ""
     },
     "System.Windows/4.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Windows.Extensions.Reference/4.0.1.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

@@ -98,3 +98,7 @@ C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.API\bin\Debug\netcoreapp3.1
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.API\obj\Debug\netcoreapp3.1\CarPark.API.csproj.CopyComplete
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.API\bin\Debug\netcoreapp3.1\Serilog.Enrichers.Environment.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.API\bin\Debug\netcoreapp3.1\Serilog.Enrichers.Process.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.API\bin\Debug\netcoreapp3.1\Serilog.Enrichers.Thread.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.API\bin\Debug\netcoreapp3.1\Serilog.Settings.AppSettings.dll
