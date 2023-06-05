@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CarPark.Entities.Concrete
 {
-	public class Country
+	public class County : BaseModel
 	{
 		public string Name { get; set; }
         public string Latitude { get; set; }

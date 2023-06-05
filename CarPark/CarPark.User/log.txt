@@ -266,3 +266,73 @@
 2023-06-02 14:50:23.905 +03:00 [INF] Request finished in 5.0445ms 200 application/javascript; charset=utf-8
 2023-06-02 14:50:23.951 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_vs/browserLink  
 2023-06-02 14:50:23.971 +03:00 [INF] Request finished in 20.4965ms 200 text/javascript; charset=UTF-8
+2023-06-05 05:18:12.739 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 05:18:13.488 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 05:18:13.488 +03:00 [INF] Hosting environment: Development
+2023-06-05 05:18:13.488 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-05 05:18:13.524 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
+2023-06-05 05:18:13.598 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-05 05:18:13.667 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-05 05:18:20.263 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 6582.1927ms
+2023-06-05 05:18:20.294 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-05 05:18:20.358 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'CarPark.User.Models.Cities' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at CarPark.User.Controllers.HomeController.Index() in C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\Controllers\HomeController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-05 05:18:20.923 +03:00 [INF] Request finished in 7403.508ms 500 text/html; charset=utf-8
+2023-06-05 05:18:20.965 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_vs/browserLink  
+2023-06-05 05:18:20.967 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js  
+2023-06-05 05:18:20.976 +03:00 [INF] Request finished in 8.4739ms 200 application/javascript; charset=utf-8
+2023-06-05 05:18:29.924 +03:00 [INF] Request finished in 8958.6899ms 200 text/javascript; charset=UTF-8
+2023-06-05 05:18:44.910 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 05:18:45.326 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 05:18:45.326 +03:00 [INF] Hosting environment: Development
+2023-06-05 05:18:45.327 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-05 05:18:45.355 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
+2023-06-05 05:18:45.422 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-05 05:18:45.471 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-05 05:21:32.437 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 05:21:32.815 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 05:21:32.816 +03:00 [INF] Hosting environment: Development
+2023-06-05 05:21:32.816 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-05 05:21:32.838 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
+2023-06-05 05:21:32.906 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-05 05:21:32.975 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-05 05:31:19.783 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 05:31:20.162 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 05:31:20.163 +03:00 [INF] Hosting environment: Development
+2023-06-05 05:31:20.163 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-05 05:31:20.188 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
+2023-06-05 05:31:20.254 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-05 05:31:20.303 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).

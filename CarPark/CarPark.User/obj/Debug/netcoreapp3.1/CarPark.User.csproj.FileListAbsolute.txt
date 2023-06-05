@@ -87,3 +87,14 @@ C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\CarPark.User.pdb
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\CarPark.User.Views.dll
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\CarPark.User.Views.pdb
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\cities.json
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\en-US\CarPark.User.resources.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\tr-TR\CarPark.User.resources.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.1\CarPark.User.Resources.Controllers.HomeController.en-US.resources
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.1\CarPark.User.Resources.Controllers.HomeController.tr-TR.resources
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.1\CarPark.User.csproj.GenerateResource.cache
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.1\en-US\CarPark.User.resources.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.1\tr-TR\CarPark.User.resources.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\CarPark.Entities.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\CarPark.Entities.pdb

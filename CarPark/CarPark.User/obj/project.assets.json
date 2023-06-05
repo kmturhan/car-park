@@ -470,6 +470,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Serilog/2.12.0": {
         "type": "package",
         "compile": {
@@ -868,6 +881,19 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/ZstdSharp.dll": {}
+        }
+      },
+      "CarPark.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MongoDB.Driver": "2.19.2"
+        },
+        "compile": {
+          "bin/placeholder/CarPark.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarPark.Entities.dll": {}
         }
       }
     }
@@ -1524,6 +1550,36 @@
         "runtimes/linux/native/libmongocrypt.so",
         "runtimes/osx/native/libmongocrypt.dylib",
         "runtimes/win/native/mongocrypt.dll"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "Serilog/2.12.0": {
@@ -2236,11 +2292,18 @@
         "zstdsharp.port.0.6.2.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "CarPark.Entities/1.0.0": {
+      "type": "project",
+      "path": "../CarPark.Entities/CarPark.Entities.csproj",
+      "msbuildProject": "../CarPark.Entities/CarPark.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CarPark.Entities >= 1.0.0",
       "MongoDB.Driver >= 2.19.2",
+      "Newtonsoft.Json >= 13.0.3",
       "Serilog.AspNetCore >= 7.0.0",
       "Serilog.Enrichers.Environment >= 2.2.0",
       "Serilog.Sinks.File >= 5.0.0",
@@ -2279,7 +2342,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kmtur\\source\\repos\\car-park\\CarPark\\CarPark.Entities\\CarPark.Entities.csproj": {
+              "projectPath": "C:\\Users\\kmtur\\source\\repos\\car-park\\CarPark\\CarPark.Entities\\CarPark.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2295,6 +2362,10 @@
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.19.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "Serilog.AspNetCore": {
             "target": "Package",
