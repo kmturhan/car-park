@@ -6,6 +6,7 @@ using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -54,6 +55,46 @@ namespace CarPark.DataAccess.Repository
 			catch (Exception ex)
 			{
 				result.Message = $"AsQueryable {ex.Message}";
+				result.Success = false;
+				result.Result = null;
+			}
+			return result;
+		}
+
+		public GetManyResult<TEntity> FilterBy(Expression<Func<TEntity, bool>> filter)
+		{
+			var result = new GetManyResult<TEntity>();
+			try
+			{
+				var data = _collection.Find(filter).ToList();
+				if (data != null)
+				{
+					result.Result = data;
+				}
+			}
+			catch (Exception ex)
+			{
+				result.Message = $"FilterBy {ex.Message}";
+				result.Success = false;
+				result.Result = null;
+			}
+			return result;
+		}
+
+		public async Task<GetManyResult<TEntity>> FilterByAsync(Expression<Func<TEntity, bool>> filter)
+		{
+			var result = new GetManyResult<TEntity>();
+			try
+			{
+				var data = await _collection.Find(filter).ToListAsync();
+				if (data != null)
+				{
+					result.Result = data;
+				}
+			}
+			catch (Exception ex)
+			{
+				result.Message = $"FilterBy {ex.Message}";
 				result.Success = false;
 				result.Result = null;
 			}

@@ -1,6 +1,7 @@
 ﻿using CarPark.Core.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,5 +11,7 @@ namespace CarPark.Core.Repository.Abstract
 	{
 		GetManyResult<TEntity> AsQueryable();
 		Task<GetManyResult<TEntity>> AsQueryableAsync();
+		GetManyResult<TEntity> FilterBy(Expression<Func<TEntity, bool>> filter);
+		Task<GetManyResult<TEntity>> FilterByAsync(Expression<Func<TEntity, bool>> filter);
 	}
 }
