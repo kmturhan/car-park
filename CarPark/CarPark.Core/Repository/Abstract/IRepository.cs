@@ -13,5 +13,9 @@ namespace CarPark.Core.Repository.Abstract
 		Task<GetManyResult<TEntity>> AsQueryableAsync();
 		GetManyResult<TEntity> FilterBy(Expression<Func<TEntity, bool>> filter);
 		Task<GetManyResult<TEntity>> FilterByAsync(Expression<Func<TEntity, bool>> filter);
+		GetOneResult<TEntity> GetById(string id);
+		Task<GetOneResult<TEntity>> GetByIdAsync(string id);
+		GetOneResult<TEntity> InsertOne(TEntity entity);
+		GetOneResult<TEntity> InsertOneAsync(TEntity entity);
 	}
 }
