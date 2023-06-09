@@ -5,6 +5,7 @@ using CarPark.DataAccess.Context;
 using Microsoft.Extensions.Options;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using SharpCompress.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
@@ -109,8 +110,8 @@ namespace CarPark.DataAccess.Repository
 			{
 				var objectId = ObjectId.Parse(id);
 				var filter = Builders<TEntity>.Filter.Eq("_id", objectId);
-				var data =  _collection.Find(filter).FirstOrDefault();
-				if(data != null)
+				var data = _collection.Find(filter).FirstOrDefault();
+				if (data != null)
 				{
 					result.Entity = data;
 				}
@@ -146,6 +147,24 @@ namespace CarPark.DataAccess.Repository
 			return result;
 		}
 
+
+		public GetManyResult<TEntity> InsertMany(ICollection<TEntity> entities)
+		{
+			var result = new GetManyResult<TEntity>();
+			try
+			{
+				_collection.InsertMany(entities);
+				result.Result = entities;
+			}
+			catch (Exception ex)
+			{
+				result.Message = $"InsertMany {ex.Message}";
+				result.Success = false;
+				result.Result = null;
+			}
+			return result;
+		}
+
 		public GetOneResult<TEntity> InsertOne(TEntity entity)
 		{
 			var result = new GetOneResult<TEntity>();
@@ -174,6 +193,67 @@ namespace CarPark.DataAccess.Repository
 			catch (Exception ex)
 			{
 				result.Message = $"InsertOneAsync {ex.Message}";
+				result.Success = false;
+				result.Entity = null;
+			}
+			return result;
+		}
+
+		public async Task<GetManyResult<TEntity>> InsertManyAsync(ICollection<TEntity> entities)
+		{
+			var result = new GetManyResult<TEntity>();
+			try
+			{
+				await _collection.InsertManyAsync(entities);
+				result.Result = entities;
+			}
+			catch (Exception ex)
+			{
+				result.Message = $"InsertOneAsync {ex.Message}";
+				result.Success = false;
+				result.Result = null;
+			}
+			return result;
+		}
+
+		public GetOneResult<TEntity> ReplaceOne(TEntity entity, string id)
+		{
+			var result = new GetOneResult<TEntity>();
+			try
+			{
+				var objectId = ObjectId.Parse(id);
+				var filter = Builders<TEntity>.Filter.Eq("_id", objectId);
+				var updatedDocument = _collection.ReplaceOne(filter, entity);
+				if(updatedDocument != null)
+				{
+					result.Entity = entity;
+				}
+			}
+			catch (Exception ex)
+			{
+				result.Message = $"GetById {ex.Message}";
+				result.Success = false;
+				result.Entity = null;
+			}
+			return result;
+		}
+
+		public async Task<GetOneResult<TEntity>> ReplaceOneAsync(TEntity entity, string id)
+		{
+			var result = new GetOneResult<TEntity>();
+			try
+			{
+				var objectId = ObjectId.Parse(id);
+				var filter = Builders<TEntity>.Filter.Eq("_id", objectId);
+				var updatedDocument = await _collection.ReplaceOneAsync(filter, entity);
+				if (updatedDocument != null)
+				{
+					result.Entity = entity;
+				}
+			}
+			catch (Exception ex)
+			{
+				result.Message = $"GetById {ex.Message}";
 				result.Success = false;
 				result.Entity = null;
 			}

@@ -16,6 +16,10 @@ namespace CarPark.Core.Repository.Abstract
 		GetOneResult<TEntity> GetById(string id);
 		Task<GetOneResult<TEntity>> GetByIdAsync(string id);
 		GetOneResult<TEntity> InsertOne(TEntity entity);
-		GetOneResult<TEntity> InsertOneAsync(TEntity entity);
+		Task<GetOneResult<TEntity>> InsertOneAsync(TEntity entity);
+		GetManyResult<TEntity> InsertMany(ICollection<TEntity> entities);
+		Task<GetManyResult<TEntity>> InsertManyAsync(ICollection<TEntity> entities);
+		GetOneResult<TEntity> ReplaceOne (TEntity entity, string id);
+		Task<GetOneResult<TEntity>> ReplaceOneAsync (TEntity entity, string id);
 	}
 }
