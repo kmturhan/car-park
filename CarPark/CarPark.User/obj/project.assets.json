@@ -306,7 +306,7 @@
           "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Options/7.0.0": {
+      "Microsoft.Extensions.Options/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -883,6 +883,31 @@
           "lib/netcoreapp3.1/ZstdSharp.dll": {}
         }
       },
+      "CarPark.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CarPark.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarPark.Core.dll": {}
+        }
+      },
+      "CarPark.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CarPark.Core": "1.0.0",
+          "Microsoft.Extensions.Options": "7.0.1",
+          "MongoDB.Driver": "2.19.2"
+        },
+        "compile": {
+          "bin/placeholder/CarPark.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarPark.DataAccess.dll": {}
+        }
+      },
       "CarPark.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1345,10 +1370,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Options/7.0.0": {
-      "sha512": "lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
+    "Microsoft.Extensions.Options/7.0.1": {
+      "sha512": "pZRDYdN1FpepOIfHU62QoBQ6zdAoTvnjxFfqAzEd9Jhb2dfhA5i6jeTdgGgcgTWFRC7oT0+3XrbQu4LjvgX1Nw==",
       "type": "package",
-      "path": "microsoft.extensions.options/7.0.0",
+      "path": "microsoft.extensions.options/7.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1369,7 +1394,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.7.0.0.nupkg.sha512",
+        "microsoft.extensions.options.7.0.1.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2293,6 +2318,16 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "CarPark.Core/1.0.0": {
+      "type": "project",
+      "path": "../CarPark.Core/CarPark.Core.csproj",
+      "msbuildProject": "../CarPark.Core/CarPark.Core.csproj"
+    },
+    "CarPark.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../CarPark.DataAccess/CarPark.DataAccess.csproj",
+      "msbuildProject": "../CarPark.DataAccess/CarPark.DataAccess.csproj"
+    },
     "CarPark.Entities/1.0.0": {
       "type": "project",
       "path": "../CarPark.Entities/CarPark.Entities.csproj",
@@ -2301,6 +2336,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CarPark.Core >= 1.0.0",
+      "CarPark.DataAccess >= 1.0.0",
       "CarPark.Entities >= 1.0.0",
       "MongoDB.Driver >= 2.19.2",
       "Newtonsoft.Json >= 13.0.3",
@@ -2343,6 +2380,12 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\kmtur\\source\\repos\\car-park\\CarPark\\CarPark.Core\\CarPark.Core.csproj": {
+              "projectPath": "C:\\Users\\kmtur\\source\\repos\\car-park\\CarPark\\CarPark.Core\\CarPark.Core.csproj"
+            },
+            "C:\\Users\\kmtur\\source\\repos\\car-park\\CarPark\\CarPark.DataAccess\\CarPark.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\kmtur\\source\\repos\\car-park\\CarPark\\CarPark.DataAccess\\CarPark.DataAccess.csproj"
+            },
             "C:\\Users\\kmtur\\source\\repos\\car-park\\CarPark\\CarPark.Entities\\CarPark.Entities.csproj": {
               "projectPath": "C:\\Users\\kmtur\\source\\repos\\car-park\\CarPark\\CarPark.Entities\\CarPark.Entities.csproj"
             }

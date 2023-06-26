@@ -31,6 +31,8 @@
     ".NETCoreApp,Version=v3.1": {
       "CarPark.User/1.0.0": {
         "dependencies": {
+          "CarPark.Core": "1.0.0",
+          "CarPark.DataAccess": "1.0.0",
           "CarPark.Entities": "1.0.0",
           "MongoDB.Driver": "2.19.2",
           "Newtonsoft.Json": "13.0.3",
@@ -498,7 +500,7 @@
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Options": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.1",
           "System.Diagnostics.DiagnosticSource": "7.0.0"
         },
         "runtime": {
@@ -526,7 +528,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Options/7.0.0": {
+      "Microsoft.Extensions.Options/7.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "Microsoft.Extensions.Primitives": "7.0.0"
@@ -534,7 +536,7 @@
         "runtime": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
             "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
+            "fileVersion": "7.0.323.6910"
           }
         },
         "compile": {
@@ -1002,6 +1004,27 @@
         },
         "compile": {
           "lib/netcoreapp3.1/ZstdSharp.dll": {}
+        }
+      },
+      "CarPark.Core/1.0.0": {
+        "runtime": {
+          "CarPark.Core.dll": {}
+        },
+        "compile": {
+          "CarPark.Core.dll": {}
+        }
+      },
+      "CarPark.DataAccess/1.0.0": {
+        "dependencies": {
+          "CarPark.Core": "1.0.0",
+          "Microsoft.Extensions.Options": "7.0.1",
+          "MongoDB.Driver": "2.19.2"
+        },
+        "runtime": {
+          "CarPark.DataAccess.dll": {}
+        },
+        "compile": {
+          "CarPark.DataAccess.dll": {}
         }
       },
       "CarPark.Entities/1.0.0": {
@@ -2732,12 +2755,12 @@
       "path": "microsoft.extensions.logging.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options/7.0.0": {
+    "Microsoft.Extensions.Options/7.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
-      "path": "microsoft.extensions.options/7.0.0",
-      "hashPath": "microsoft.extensions.options.7.0.0.nupkg.sha512"
+      "sha512": "sha512-pZRDYdN1FpepOIfHU62QoBQ6zdAoTvnjxFfqAzEd9Jhb2dfhA5i6jeTdgGgcgTWFRC7oT0+3XrbQu4LjvgX1Nw==",
+      "path": "microsoft.extensions.options/7.0.1",
+      "hashPath": "microsoft.extensions.options.7.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/7.0.0": {
       "type": "package",
@@ -2969,6 +2992,16 @@
       "sha512": "sha512-jPao/LdUNLUz8rn3H1D8W7wQbZsRZM0iayvWI4xGejJg3XJHT56gcmYdgmCGPdJF1UEBqUjucCRrFB+4HbJsbw==",
       "path": "zstdsharp.port/0.6.2",
       "hashPath": "zstdsharp.port.0.6.2.nupkg.sha512"
+    },
+    "CarPark.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarPark.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "CarPark.Entities/1.0.0": {
       "type": "project",

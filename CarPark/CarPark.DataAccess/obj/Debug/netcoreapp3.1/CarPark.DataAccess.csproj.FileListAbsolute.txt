@@ -3,3 +3,11 @@ C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\obj\Debug\netcor
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\obj\Debug\netcoreapp3.1\CarPark.DataAccess.AssemblyInfoInputs.cache
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\obj\Debug\netcoreapp3.1\CarPark.DataAccess.AssemblyInfo.cs
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\obj\Debug\netcoreapp3.1\CarPark.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\bin\Debug\netcoreapp3.1\CarPark.DataAccess.deps.json
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\bin\Debug\netcoreapp3.1\CarPark.DataAccess.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\bin\Debug\netcoreapp3.1\CarPark.DataAccess.pdb
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\bin\Debug\netcoreapp3.1\CarPark.Core.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\bin\Debug\netcoreapp3.1\CarPark.Core.pdb
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\obj\Debug\netcoreapp3.1\CarPark.DataAccess.csproj.CopyComplete
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\obj\Debug\netcoreapp3.1\CarPark.DataAccess.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.DataAccess\obj\Debug\netcoreapp3.1\CarPark.DataAccess.pdb

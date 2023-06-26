@@ -98,3 +98,7 @@ C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.1\CarPark.User.dll
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.1\CarPark.User.pdb
 C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\obj\Debug\netcoreapp3.1\CarPark.User.genruntimeconfig.cache
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\CarPark.Core.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\CarPark.DataAccess.dll
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\CarPark.Core.pdb
+C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\bin\Debug\netcoreapp3.1\CarPark.DataAccess.pdb

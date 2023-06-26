@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o46haluBZPPfZJ3X4ERJAcOT7tndtcvx5H4ROVDFpnANQ+9vncplLj4DPIRuhXQsMcV7E67ICYxHoO6rsRDIDw==",
+  "dgSpecHash": "eyrCjI0F9SzwLeCPrr5lVI0MLF/E5uG8snnaFKv/1IzSodgQ7hvSnLFOH+qtts2pAwv6feaOsMigRPrGtHv70w==",
   "success": true,
   "projectFilePath": "C:\\Users\\kmtur\\source\\repos\\car-park\\CarPark\\CarPark.User\\CarPark.User.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,7 @@
     "C:\\Users\\kmtur\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\kmtur\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\kmtur\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\kmtur\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\kmtur\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\kmtur\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\kmtur\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\kmtur\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

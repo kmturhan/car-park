@@ -336,3 +336,202 @@ Path '', line 1, position 1.
 2023-06-05 05:31:20.188 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
 2023-06-05 05:31:20.254 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
 2023-06-05 05:31:20.303 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-10 04:14:03.843 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-10 04:14:47.900 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-10 04:14:47.900 +03:00 [INF] Hosting environment: Development
+2023-06-10 04:14:47.901 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-10 04:14:48.257 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/user  
+2023-06-10 04:14:48.257 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
+2023-06-10 04:14:49.624 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-10 04:14:49.624 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Index (CarPark.User)'
+2023-06-10 04:14:49.692 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-10 04:14:49.714 +03:00 [INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2023-06-10 04:17:54.466 +03:00 [INF] Executing ViewResult, running view Index.
+2023-06-10 04:17:57.856 +03:00 [ERR] The view 'Index' was not found. Searched locations: ["/Views/User/Index.cshtml","/Views/Shared/Index.cshtml"]
+2023-06-10 04:17:58.131 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Index (CarPark.User) in 188409.7974ms
+2023-06-10 04:17:59.053 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Index (CarPark.User)'
+2023-06-10 04:17:59.146 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/User/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-10 04:18:03.164 +03:00 [INF] Request finished in 194911.4939ms 500 text/html; charset=utf-8
+2023-06-10 04:18:04.509 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js  
+2023-06-10 04:18:04.509 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_vs/browserLink  
+2023-06-10 04:18:04.516 +03:00 [INF] Request finished in 6.2483ms 200 application/javascript; charset=utf-8
+2023-06-10 04:18:04.606 +03:00 [INF] Request finished in 96.9443ms 200 text/javascript; charset=UTF-8
+2023-06-10 04:18:05.051 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/favicon.ico  
+2023-06-10 04:18:05.079 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\wwwroot\favicon.ico'
+2023-06-10 04:18:05.080 +03:00 [INF] Request finished in 28.2423ms 200 image/x-icon
+2023-06-10 04:18:11.830 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-10 04:18:12.226 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-10 04:18:12.226 +03:00 [INF] Hosting environment: Development
+2023-06-10 04:18:12.226 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-10 04:18:12.248 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
+2023-06-10 04:18:12.295 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-10 04:18:12.338 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-26 01:12:03.333 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-26 01:12:21.760 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-26 01:12:21.761 +03:00 [INF] Hosting environment: Development
+2023-06-26 01:12:21.761 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-26 01:12:21.796 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
+2023-06-26 01:12:22.169 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-26 01:12:22.242 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-26 01:12:50.615 +03:00 [INF] Executing ViewResult, running view Index.
+2023-06-26 01:12:53.051 +03:00 [INF] Executed ViewResult - view Index executed in 2441.4974ms.
+2023-06-26 01:12:53.057 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 30814.9915ms
+2023-06-26 01:12:53.058 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-26 01:12:53.169 +03:00 [INF] Request finished in 31377.3908ms 200 text/html; charset=utf-8
+2023-06-26 01:12:53.965 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/lib/jquery/dist/jquery.min.js  
+2023-06-26 01:12:53.965 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/css/site.css  
+2023-06-26 01:12:53.965 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-06-26 01:12:54.014 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\wwwroot\css\site.css'
+2023-06-26 01:12:54.014 +03:00 [INF] Request finished in 49.0162ms 200 text/css
+2023-06-26 01:12:54.014 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-06-26 01:12:54.014 +03:00 [INF] Request finished in 49.2999ms 200 text/css
+2023-06-26 01:12:54.032 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-06-26 01:12:54.037 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2023-06-26 01:12:54.038 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\wwwroot\js\site.js'
+2023-06-26 01:12:54.038 +03:00 [INF] Request finished in 1.4196ms 200 application/javascript
+2023-06-26 01:12:54.045 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js  
+2023-06-26 01:12:54.048 +03:00 [INF] Request finished in 3.1053ms 200 application/javascript; charset=utf-8
+2023-06-26 01:12:54.058 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_vs/browserLink  
+2023-06-26 01:12:54.073 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-06-26 01:12:54.073 +03:00 [INF] Request finished in 108.5763ms 200 application/javascript
+2023-06-26 01:12:54.107 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-06-26 01:12:54.107 +03:00 [INF] Request finished in 75.0042ms 200 application/javascript
+2023-06-26 01:12:54.145 +03:00 [INF] Request finished in 86.9477ms 200 text/javascript; charset=UTF-8
+2023-06-26 01:12:54.573 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/favicon.ico  
+2023-06-26 01:12:54.588 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User\wwwroot\favicon.ico'
+2023-06-26 01:12:54.589 +03:00 [INF] Request finished in 17.1345ms 200 image/x-icon
+2023-06-26 01:15:21.346 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/user/create  
+2023-06-26 01:15:21.355 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2023-06-26 01:15:21.359 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2023-06-26 01:22:01.793 +03:00 [INF] Executing ViewResult, running view Create.
+2023-06-26 01:22:01.802 +03:00 [ERR] The view 'Create' was not found. Searched locations: ["/Views/User/Create.cshtml","/Views/Shared/Create.cshtml"]
+2023-06-26 01:22:02.008 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Create (CarPark.User) in 400649.2267ms
+2023-06-26 01:22:02.038 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2023-06-26 01:22:02.112 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Create' was not found. The following locations were searched:
+/Views/User/Create.cshtml
+/Views/Shared/Create.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-26 01:22:06.364 +03:00 [INF] Request finished in 405017.8828ms 500 text/html; charset=utf-8
+2023-06-26 01:22:06.400 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js  
+2023-06-26 01:22:06.400 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_vs/browserLink  
+2023-06-26 01:22:06.401 +03:00 [INF] Request finished in 0.698ms 200 application/javascript; charset=utf-8
+2023-06-26 01:22:06.409 +03:00 [INF] Request finished in 8.6483ms 200 text/javascript; charset=UTF-8
+2023-06-26 01:23:19.995 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/user/create  
+2023-06-26 01:23:20.000 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2023-06-26 01:23:20.001 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2023-06-26 01:23:46.428 +03:00 [INF] Executing ViewResult, running view Create.
+2023-06-26 01:23:46.428 +03:00 [ERR] The view 'Create' was not found. Searched locations: ["/Views/User/Create.cshtml","/Views/Shared/Create.cshtml"]
+2023-06-26 01:23:49.698 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Create (CarPark.User) in 29696.2467ms
+2023-06-26 01:23:49.724 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2023-06-26 01:23:49.785 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Create' was not found. The following locations were searched:
+/Views/User/Create.cshtml
+/Views/Shared/Create.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-26 01:23:49.807 +03:00 [INF] Request finished in 29812.8331ms 500 text/html; charset=utf-8
+2023-06-26 01:23:49.847 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_vs/browserLink  
+2023-06-26 01:23:49.847 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js  
+2023-06-26 01:23:49.847 +03:00 [INF] Request finished in 0.7985ms 200 application/javascript; charset=utf-8
+2023-06-26 01:23:49.855 +03:00 [INF] Request finished in 8.2433ms 200 text/javascript; charset=UTF-8
+2023-06-26 21:35:26.965 +03:00 [INF] User profile is available. Using 'C:\Users\kmtur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-26 21:35:27.597 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-26 21:35:27.601 +03:00 [INF] Hosting environment: Development
+2023-06-26 21:35:27.601 +03:00 [INF] Content root path: C:\Users\kmtur\source\repos\car-park\CarPark\CarPark.User
+2023-06-26 21:35:27.629 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/  
+2023-06-26 21:35:27.688 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-26 21:35:27.751 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-06-26 21:35:32.498 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/user/create  
+2023-06-26 21:35:32.508 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2023-06-26 21:35:32.511 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2023-06-26 21:35:41.201 +03:00 [INF] Executing ViewResult, running view Create.
+2023-06-26 21:35:41.210 +03:00 [ERR] The view 'Create' was not found. Searched locations: ["/Views/User/Create.cshtml","/Views/Shared/Create.cshtml"]
+2023-06-26 21:35:41.466 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Create (CarPark.User) in 8948.9593ms
+2023-06-26 21:35:41.501 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2023-06-26 21:35:41.587 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Create' was not found. The following locations were searched:
+/Views/User/Create.cshtml
+/Views/Shared/Create.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-26 21:35:42.056 +03:00 [INF] Request finished in 9557.4234ms 500 text/html; charset=utf-8
+2023-06-26 21:35:42.122 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_vs/browserLink  
+2023-06-26 21:35:42.123 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js  
+2023-06-26 21:35:42.134 +03:00 [INF] Request finished in 10.137ms 200 application/javascript; charset=utf-8
+2023-06-26 21:35:42.223 +03:00 [INF] Request finished in 101.07ms 200 text/javascript; charset=UTF-8
+2023-06-26 21:35:42.519 +03:00 [INF] Executing ViewResult, running view Index.
+2023-06-26 21:35:42.764 +03:00 [INF] Executed ViewResult - view Index executed in 258.933ms.
+2023-06-26 21:35:42.776 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 15024.0671ms
+2023-06-26 21:35:42.778 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-06-26 21:35:42.789 +03:00 [INF] Request finished in 15167.0441ms 200 text/html; charset=utf-8

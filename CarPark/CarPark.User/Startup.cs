@@ -1,3 +1,6 @@
+using CarPark.Core.Repository.Abstract;
+using CarPark.Core.Settings;
+using CarPark.DataAccess.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,9 +30,13 @@ namespace CarPark.User
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllersWithViews();
-
+			services.Configure<MongoSettings>(options =>
+			{
+				options.ConnectionString = Configuration.GetSection("MongoConnection:ConnectionString").Value;
+				options.Database = Configuration.GetSection("MongoConnection:Database").Value;
+			});
 			services.AddLocalization(opt => opt.ResourcesPath = "Resources");
-
+			services.AddScoped(typeof(IRepository<>), typeof(MongoRepositoryBase<>));
 			services.Configure<RequestLocalizationOptions>(opt =>
 			{
 				var supportedCultures = new List<CultureInfo>
